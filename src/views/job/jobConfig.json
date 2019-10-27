@@ -1,0 +1,168 @@
+{
+    "task": {
+        "select": [{
+            "value": "0",
+            "label": "超时"
+        }, {
+            "value": "1",
+            "label": "已完成"
+        }, {
+            "value": "2",
+            "label": "进行中"
+        }, {
+            "value": "3",
+            "label": "未开始"
+        }],
+        "tableConfig": [{
+                "prop": "user",
+                "label": "任务名称"
+
+            },
+            {
+                "slot": "obj",
+                "label": "巡查对象"
+            },
+            {
+                "prop": "overtime",
+                "label": "应完成时间"
+            },
+            {
+                "prop": "status",
+                "label": "当前状态"
+            },
+            {
+                "prop": "lasttime",
+                "label": "实际完成时间"
+            },
+            {
+                "prop": "joinman",
+                "label": "相关负责人"
+            },
+            {
+                "slot": "opt",
+                "label": "操作"
+            }
+
+        ],
+        "dialog": {
+            "timeSelect": [],
+            "ruleForm": {
+                "name": "",
+                "time": "",
+                "user": "",
+                "updata": "",
+                "radio": ""
+            },
+            "rules": {
+                "name": [{
+                    "required": true,
+                    "message": "请输入任务名称",
+                    "trigger": "blur"
+                }],
+                "time": [{
+                    "required": true,
+                    "message": "请选择频率",
+                    "trigger": "blur"
+                }],
+                "user": [{
+                    "required": true,
+                    "message": "请选择对象",
+                    "trigger": "blur"
+                }],
+                "updata": [{
+                    "required": true,
+                    "message": "请选择排班时间",
+                    "trigger": "blur"
+                }],
+                "radio": [{
+                    "required": true,
+                    "message": "请选择任务",
+                    "trigger": "blur"
+                }]
+
+            },
+            "tableConfig":[
+            {
+                "slot": "radio",
+                "label": "选择"
+            },
+            {
+                "prop": "name",
+                "label": "人名"
+            },
+            {
+                "prop": "address",
+                "label": "角色"
+            },
+            {
+                "prop": "date",
+                "label": "电话"
+            },
+            {
+                "slot": "opt",
+                "label": "选择"
+            },
+            {
+                "slot": "obj",
+                "label": "选择"
+            }
+        ]
+        }
+
+    },
+    "config":{
+        "tabConfig":[{
+            "type":"selection",
+            "label":"选择"
+        },{
+           "prop":"num",
+           "label":"二维码编号"
+        },{
+            "prop":"name",
+            "label":"检查对象名称"
+        },{
+            "prop":"url",
+            "label":"检查对象地址"
+        },{
+            "prop":"obj",
+            "label":"检查对象类型"
+        },{
+            "prop":"updata",
+            "label":"上次编辑时间"
+        },{
+            "slot":"opt",
+            "label":"操作"
+        }],
+        "dialog":{
+            "ruleForm":{
+                "name":"",
+                "url":"",
+                "build":"",
+                "obj":"",
+                "textarea":""
+            },
+            "rules":{
+                "name":[{
+                    "required": true,
+                    "message": "请输入检查对象名称",
+                    "trigger": "blur"
+                }],
+                "url":[{
+                    "required": true,
+                    "message": "请输入检查对象地址",
+                    "trigger": "blur"
+                }],
+                "build":[{
+                    "required": true,
+                    "message": "请选择消防措施",
+                    "trigger": "blur"
+                }],
+                "obj":[{
+                    "required": true,
+                    "message": "请选择类型",
+                    "trigger": "blur"
+                }]
+            }
+        }
+    }
+}

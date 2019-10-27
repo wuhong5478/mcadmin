@@ -1,0 +1,248 @@
+{
+    "yjwz": [{
+            "prop": "resourcesName",
+            "label": "物资名称"
+        },
+        {
+            "prop": "resourcesType",
+            "label": "物资类型"
+        },
+        {
+            "prop": "resourcesNumber",
+            "label": "物资数量"
+        },
+        {
+            "prop": "resourcesAddress",
+            "label": "物资位置"
+        },
+        {
+            "prop": "longitude",
+            "label": "经度"
+        },{
+            "prop": "latitude",
+            "label": "纬度"
+        },
+        {
+            "prop": "productionDate",
+            "label": "生产日期"
+        },
+        {
+            "prop": "useCycle",
+            "label": "使用周期"
+        },
+        {
+            "prop": "chargePerson",
+            "label": "负责人"
+        },
+        {
+            "prop": "contactTelephone",
+            "label": "联系电话"
+        },
+        {
+            "slot": "opt",
+            "label": "操作"
+        }
+    ],
+    "tableConfig": [{
+            "prop": "deviceName",
+            "label": "设备编号"
+
+        },
+        {
+            "prop": "productName",
+            "label": "设备名称"
+        },
+        {
+            "prop": "address",
+            "label": "设备位置"
+        },
+        {
+            "prop": "districtName",
+            "label": "所属园区"
+        },
+        {
+            "prop": "status",
+            "label": "信息状态"
+        },
+        {
+            "slot": "opt",
+            "label": "操作"
+        }
+    ],
+    "station": {
+        "tabConfig": [{
+                "prop": "name",
+                "label": "姓名"
+            },
+            {
+                "prop": "gender",
+                "label": "性别"
+            },
+            {
+                "prop": "brithddate",
+                "label": "出生日期"
+            },
+            {
+                "prop": "post",
+                "label": "岗位"
+            },
+            {
+                "prop": "phone",
+                "label": "联系电话"
+            },
+            {
+                "prop": "createTime",
+                "label": "入职日期"
+            },
+            {
+                "prop": "jobstatus",
+                "label": "在职状态"
+            },
+            {
+                "slot": "opt",
+                "label": "操作"
+            }
+        ],
+        "personnel": {
+            "rules": {
+                "name": [{
+                    "required": true,
+                    "message": "请输入任务名称",
+                    "trigger": "blur"
+                }],
+                "sex": [{
+                    "required": true,
+                    "message": "请输入任务名称",
+                    "trigger": "blur"
+                }],
+                "born": [{
+                    "required": true,
+                    "message": "请输入任务名称",
+                    "trigger": "blur"
+                }],
+                "Education": [{
+                    "required": true,
+                    "message": "请输入任务名称",
+                    "trigger": "blur"
+                }],
+                "joy": [{
+                    "required": true,
+                    "message": "请输入任务名称",
+                    "trigger": "blur"
+                }],
+                "phone": [{
+                    "required": true,
+                    "message": "请输入任务名称",
+                    "trigger": "blur"
+                }],
+                "state": [{
+                    "required": true,
+                    "message": "请输入任务名称",
+                    "trigger": "blur"
+                }]
+
+            },
+            "ruleForm": {
+                "name": "",
+                "sex": "",
+                "born": "",
+                "Education": "",
+                "joy": "",
+                "phone": "",
+                "state": ""
+            }
+        },
+        "Material": {
+            "car": [{
+                    "prop": "materialName",
+                    "label": "车辆名称"
+
+                },
+                {
+                    "prop": "materialNumber",
+                    "label": "数量"
+                },
+                {
+                    "prop": "carrieableNumber",
+                    "label": "可载人数"
+                },
+                {
+                    "prop": "warterTankCapacity",
+                    "label": "水箱容量"
+                },
+                {
+                    "slot": "opt",
+                    "label": "其他"
+                }
+            ],
+            "Extinguisher": [{
+                    "prop": "materialName",
+                    "label": "工具名称"
+                },
+                {
+                    "prop": "materialNumber",
+                    "label": "数量"
+                },
+                {
+                    "slot": "opt",
+                    "label": "其他"
+                }
+            ],
+            "Dismantler": [{
+                    "prop": "materialName",
+                    "label": "工具名称"
+                },
+                {
+                    "prop": "materialNumber",
+                    "label": "数量"
+                },
+                {
+                    "slot": "opt",
+                    "label": "其他"
+                }
+            ],
+            "Personal": [{
+                    "prop": "materialName",
+                    "label": "工具名称"
+                },
+                {
+                    "prop": "materialNumber",
+                    "label": "数量"
+                },
+                {
+                    "slot": "opt",
+                    "label": "其他"
+                }
+            ],
+            "Communication": [{
+                    "prop": "materialName",
+                    "label": "工具名称"
+                },
+                {
+                    "prop": "materialNumber",
+                    "label": "数量"
+                },
+                {
+                    "slot": "opt",
+                    "label": "其他"
+                }
+            ],
+            "Video": [{
+                    "prop": "materialName",
+                    "label": "工具名称"
+                },
+                {
+                    "prop": "materialNumber",
+                    "label": "数量"
+                },
+                {
+                    "slot": "opt",
+                    "label": "其他"
+                }
+            ],
+            "protect": [],
+            "communication": [],
+            "video": []
+        }
+    }
+}

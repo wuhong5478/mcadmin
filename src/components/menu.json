@@ -1,0 +1,607 @@
+[
+  {
+    "icon": "../assets/picture/icon_po8igdphsks/yuanquyilan.png",
+    "text": "消防首页",
+    "children": [
+      {
+        "text": "消防首页",
+        "router": "/g-firstpage-rom",
+        "children": [
+          {
+            "text": "消防首页",
+            "router": "g-firstpage"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "icon": "../assets/picture/icon_po8igdphsks/yuanquyilan.png",
+    "text": "设备管理",
+    "children": [
+      {
+        "text": "设备类型",
+        "router": "/e-archives-rom",
+        "children": [
+          {
+            "text": "设备类型",
+            "router": "e-archives"
+          }
+        ]
+      },
+      {
+        "text": "设备分析",
+        "router": "/e-analyse-rom",
+        "children": [
+          {
+            "text": "设备分析",
+            "router": "e-analyse"
+          }
+        ]
+      },
+      {
+        "text": "设备健康度",
+        "router": "/e-healths-rom",
+        "children": [
+          {
+            "text": "设备健康度",
+            "router": "e-healths"
+          }
+        ]
+      },
+      {
+        "text": "设备查询",
+        "router": "/e-search-rom",
+        "children": [
+          {
+            "text": "设备查询",
+            "router": "e-search"
+          }
+        ]
+      },
+      {
+        "text": "设备档案",
+        "router": "/e-dossier-rom",
+        "children": [
+          {
+            "text": "设备档案",
+            "router": "e-dossier"
+          }
+        ]
+      },
+      {
+        "text": "设备总览",
+        "router": "/e-overview-rom",
+        "children": [
+          {
+            "text": "设备总览",
+            "router": "e-overview"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "icon": "../assets/layout/工作.png",
+    "text": "警情管理",
+    "children": [
+      {
+        "text": "警情处置",
+        "router": "/f-rom",
+        "children": [
+          {
+            "text": "警情处置",
+            "router": "f-record"
+          }
+        ]
+      },
+      {
+        "text": "警情分析",
+        "router": "/f-analyse-rom",
+        "children": [
+          {
+            "text": "警情分析",
+            "router": "f-analyse"
+          }
+        ]
+      },
+      {
+        "text": "警情通知配置",
+        "router": "/f-tz-rom",
+        "children": [
+          {
+            "text": "警情通知配置",
+            "router": "f-tz"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "icon": "../assets/layout/设备.png",
+    "text": "告警管理",
+    "children": [
+      {
+        "text": "告警信息反馈",
+        "router": "/e-alarm-rom",
+        "children": [
+          {
+            "text": "告警信息反馈",
+            "router": "e-alarm"
+          }
+        ]
+      },
+      {
+        "text": "告警统计",
+        "router": "/e-statistic-rom",
+        "children": [
+          {
+            "text": "告警统计",
+            "router": "e-statistic"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "icon": "../assets/layout/设备.png",
+    "text": "隐患管理",
+    "children": [
+      {
+        "text": "隐患处置",
+        "router": "/d-rom",
+        "children": [
+          {
+            "text": "隐患处置",
+            "router": "d-Analysis"
+          }
+        ]
+      },
+
+      {
+        "text": "隐患统计",
+        "router": "/d-fx-rom",
+        "children": [
+          {
+            "text": "隐患统计",
+            "router": "d-fx"
+          }
+        ]
+      },
+      {
+        "text": "隐患分析模型",
+        "router": "d-mx-rom",
+        "children": [
+          {
+            "text": "隐患分析模型",
+            "router": "d-mx"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "icon": "../assets/layout/设备.png",
+    "text": "巡检管理",
+    "children": [
+      {
+        "text": "巡检任务",
+        "router": "/g-rom",
+        "children": [
+          {
+            "text": "巡检任务",
+            "router": "analyze"
+          }
+        ]
+      },
+      {
+        "text": "巡检计划",
+        "router": "/g-jh-rom",
+        "children": [
+          {
+            "text": "巡检计划",
+            "router": "g-jh"
+          }
+        ]
+      },
+      {
+        "text": "巡检任务分析",
+        "router": "/g-analyse-rom",
+        "children": [
+          {
+            "text": "巡检任务分析",
+            "router": "g-analyse"
+          }
+        ]
+      },
+      {
+        "text": "巡检对象配置",
+        "router": "/g-configuration-rom",
+        "children": [
+          {
+            "text": "巡检对象配置",
+            "router": "configuration"
+          }
+        ]
+      },
+      {
+        "text": "巡检报告管理",
+        "router": "/g-report-rom",
+        "children": [
+          {
+            "text": "巡检报告管理",
+            "router": "g-report"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "icon": "../assets/pic/weibaoguanli.png",
+    "text": "维保管理",
+    "children": [
+      {
+        "text": "例行维保",
+        "router": "/g-room",
+        "children": [
+          {
+            "text": "例行维保",
+            "router": "j-task"
+          }
+        ]
+      },
+      {
+        "text": "维保计划",
+        "router": "/g-analyze-rom",
+        "children": [
+          {
+            "text": "维保计划",
+            "router": "w-analyze"
+          }
+        ]
+      },
+      {
+        "text": "应急维保",
+        "router": "/d-rom-e",
+        "children": [
+          {
+            "text": "应急维保",
+            "router": "d-emergency"
+          }
+        ]
+      },
+      {
+        "text": "工作统计",
+        "router": "/w-analyse-rom",
+        "children": [
+          {
+            "text": "工作统计",
+            "router": "w-analyse"
+          }
+        ]
+      },
+      {
+        "text": "维保对象配置",
+        "router": "/g-config-rom",
+        "children": [
+          {
+            "text": "维保对象配置",
+            "router": "j-config"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "icon": "../assets/layout/考试.png",
+    "text": "隐患分析",
+    "children": [
+      {
+        "text": "行业隐患统计分析",
+        "router": "/h-model-rom",
+        "children": [
+          {
+            "text": "行业隐患统计分析",
+            "router": "h-model"
+          }
+        ]
+      },
+      {
+        "text": "小镇隐患统计分析",
+        "router": "/x-model-rom",
+        "children": [
+          {
+            "text": "小镇隐患统计分析",
+            "router": "x-model"
+          }
+        ]
+      },
+      {
+        "text": "历史隐患统计",
+        "router": "/l-model-rom",
+        "children": [
+          {
+            "text": "历史隐患统计",
+            "router": "l-model"
+          }
+        ]
+      },
+      {
+        "text": "合规运行分析",
+        "router": "/g-model-rom",
+        "children": [
+          {
+            "text": "合规运行分析",
+            "router": "g-model"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "icon": "../assets/layout/考试.png",
+    "text": "考试培训",
+    "children": [
+      {
+        "text": "题库管理",
+        "router": "/xfaqyl-rom",
+        "children": [
+          {
+            "text": "题库管理",
+            "router": "xfaqyl"
+          }
+        ]
+      },
+      {
+        "text": "培训管理",
+        "router": "/xfaqpx-rom",
+        "children": [
+          {
+            "text": "培训管理",
+            "router": "xfaqpx"
+          }
+        ]
+      },
+      {
+        "text": "知识案例管理",
+        "router": "/xfzs-rom",
+        "children": [
+          {
+            "text": "知识案例管理",
+            "router": "zsalgl"
+          }
+        ]
+      },
+      {
+        "text": "成绩管理",
+        "router": "/exam-rom",
+        "children": [
+          {
+            "text": "成绩管理",
+            "router": "exam"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "icon": "../assets/layout/ziyuan.png",
+    "text": "资源管理",
+    "children": [
+      {
+        "text": "微消站管理",
+        "router": "/fire-rom",
+        "children": [
+          {
+            "text": "微消站管理",
+            "router": "fire-Station",
+            "children": [
+              {
+                "text": "微消站管理",
+                "router": "fire-Station"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "消控室管理",
+        "router": "/xksgl-rom",
+        "children": [
+          {
+            "text": "消控室管理",
+            "router": "xksgl"
+          }
+        ]
+      },
+      {
+        "text": "应急资源管理",
+        "router": "/yjwz-rom",
+        "children": [
+          {
+            "text": "应急资源管理",
+            "router": "yjwz"
+          }
+        ]
+      },
+      {
+        "text": "平面图纸",
+        "router": "/pmtz-rom",
+        "children": [
+          {
+            "text": "平面图纸",
+            "router": "pmtz"
+          }
+        ]
+      },
+      {
+        "text": "应急预案管理",
+        "router": "/jsfw-rom",
+        "children": [
+          {
+            "text": "应急预案管理",
+            "router": "jsfw"
+          }
+        ]
+      },
+      {
+        "text": "建筑管理",
+        "router": "/m-build-rom",
+        "children": [
+          {
+            "text": "建筑管理",
+            "router": "m-build"
+          }
+        ]
+      },
+      {
+        "text": "BIM管理",
+        "router": "/m-bim-rom",
+        "children": [
+          {
+            "text": "BIM管理",
+            "router": "m-bim"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "icon": "../assets/img/pingtaiguanli.png",
+    "text": "平台管理",
+    "children": [
+      {
+        "text": "用户管理",
+        "router": "/m-rom",
+        "children": [
+          {
+            "text": "用户管理",
+            "router": "m-user"
+          }
+        ]
+      },
+      {
+        "text": "角色管理",
+        "router": "/p-role-rom",
+        "children": [
+          {
+            "text": "角色管理",
+            "router": "p-role"
+          }
+        ]
+      },
+      {
+        "text": "权限管理",
+        "router": "/m-permission-rom",
+        "children": [
+          {
+            "text": "权限管理",
+            "router": "m-permission"
+          }
+        ]
+      },
+      {
+        "text": "数据字典",
+        "router": "/m-dictionary-rom",
+        "children": [
+          {
+            "text": "数据字典",
+            "router": "m-dictionary"
+          }
+        ]
+      },
+      {
+        "text": "组织架构",
+        "router": "/zzjg-rom",
+        "children": [
+          {
+            "text": "组织架构",
+            "router": "zzjg"
+          }
+        ]
+      },
+      {
+        "text": "园区管理",
+        "router": "/p-garden-rom",
+        "children": [
+          {
+            "text": "园区管理",
+            "router": "p-garden"
+          }
+        ]
+      },
+      {
+        "text": "物业管理",
+        "router": "/p-propertyguanli-rom",
+        "children": [
+          {
+            "text": "物业管理",
+            "router": "p-propertyguanli"
+          }
+        ]
+      },
+      {
+        "text": "物业信息",
+        "router": "/p-property-rom",
+        "children": [
+          {
+            "text": "物业信息",
+            "router": "p-property"
+          }
+        ]
+      },
+      {
+        "text": "维保信息",
+        "router": "/p-maintenance-rom",
+        "children": [
+          {
+            "text": "维保信息",
+            "router": "p-maintenance"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "icon": "../assets/layout/设备.png",
+    "text": "消息管理",
+    "children": [
+      {
+        "text": "新闻管理",
+        "router": "/xwgl-rom",
+        "children": [
+          {
+            "text": "新闻管理",
+            "router": "xwgl"
+          }
+        ]
+      },
+      {
+        "text": "通知方式配置",
+        "router": "/tzfspz-rom",
+        "children": [
+          {
+            "text": "通知方式配置",
+            "router": "tzfspz"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "icon": "../assets/layout/设备.png",
+    "text": "大屏管理",
+    "children": [
+      {
+        "text": "大屏监控",
+        "router": "/b-screen-rom",
+        "children": [
+          {
+            "text": "大屏监控",
+            "router": "b-screen"
+          }
+        ]
+      }
+    ]
+  }
+]
