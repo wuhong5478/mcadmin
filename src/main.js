@@ -3,15 +3,15 @@ import App from './App.vue'
 import router from './router'
 import store from './store/store'
 import './plugins/element.js'
-import './components/index' //全局引入组件
+import './components/index' // 全局引入组件
 import registryPopup from './views/platform/common/popup_index'
 import 'echarts'
 import echarts from './plugins/echarts'
 // import echartss from 'echarts'
 import axios from 'axios'
 import Api from './api/request'
-import Directives from './directives' //自定义指令
-import * as utils from './utils/index' //全局方法
+import Directives from './directives' // 自定义指令
+import * as utils from './utils/index' // 全局方法
 // 接口模块
 import request from './api/index'
 import htmlToPdf from './api/htmlToPdf'

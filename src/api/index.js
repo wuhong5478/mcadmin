@@ -2,7 +2,7 @@
 // import deviceInfo from '@/api/deviceInfo'
 // import platform from '@/api/platform'
 
-// export default {    
+// export default {
 //   deviceInfo,
 //   platform
 // }

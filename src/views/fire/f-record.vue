@@ -85,13 +85,13 @@
         </template>
       </el-table-column>
       <el-table-column label="处理结果" prop="status" style="margin-left:50px;">
-        <!-- <template>
+        <template>
           <span
             ref="wenben"
             @click="showDialog"
             :class="{showRed: red,showOrange: orange,showGreen: green}"
           >未处理</span>
-        </template> -->
+        </template>
       </el-table-column>
       <el-table-column prop="dealUser.userName" label="处理人"></el-table-column>
       <el-table-column prop="dealTime" label="处理时间"></el-table-column>
@@ -384,6 +384,11 @@ export default {
       })
     },
 
+    // 输入监控
+    pickerOptions() {
+
+    },
+
     // 改变时间格式
     
 
@@ -491,7 +496,6 @@ export default {
       var  that = this
         this.$request.fireinfo.getAllFireInfo({status:val,pageSize:5,devName:that.value1,startTime:val[0],endTime:val[0],}).then(res=>{
           this.tableData = res.data.rows
-          console.log('ressssssssssss',res.data)
           this.total = res.data.totalCount
           this.tableData.forEach(a=>{
             if(a.status==0){

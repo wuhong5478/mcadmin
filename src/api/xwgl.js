@@ -1,51 +1,51 @@
 import request from '@/api/request'
 
 const xwgl = {
-  getInfolist (params){
-    return request.get('/list', {params})
+  getInfolist (params) {
+    return request.get('/list', { params })
   },
-  getInfo (params){
-    return request.get('/detail', {params})
+  getInfo (params) {
+    return request.get('/detail', { params })
   },
-  getTypes (){
+  getTypes () {
     return request.get('/newsTypeList')
   },
-  addInfo(params) {
-    let config = {
-      //添加请求头
+  addInfo (params) {
+    const config = {
+      // 添加请求头
       headers: { 'Content-Type': 'application/json' }
     }
-    return request.post('/create', params,config)
+    return request.post('/create', params, config)
   },
-  updateInfo(params) {
-    let config = {
-      //添加请求头
+  updateInfo (params) {
+    const config = {
+      // 添加请求头
       headers: { 'Content-Type': 'application/json' }
     }
     return request.put('/update', params, config)
   },
-  deleteInfo(params) {
-    let config = {
-      //添加请求头
+  deleteInfo (params) {
+    const config = {
+      // 添加请求头
       headers: { 'Content-Type': 'application/json' }
     }
     return request.post(`/delete?id=${params}`, config)
   },
-  deleteBatch(params) {
+  deleteBatch (params) {
     return request.post('/deleteBatch', params)
   },
-  uploadFile(params) {
-    let config = {
-      //添加请求头
+  uploadFile (params) {
+    const config = {
+      // 添加请求头
       headers: { 'Content-Type': 'application/json' }
     }
-    return request.post('/uploadFile', params,config)
+    return request.post('/uploadFile', params, config)
   },
-  getTrainingList(params) {
-    return request.get('/training/list', {params})
+  getTrainingList (params) {
+    return request.get('/training/list', { params })
   },
-  getNoticeList(params) {
-    return request.get('/sendNotice/list', {params})
+  getNoticeList (params) {
+    return request.get('/sendNotice/list', { params })
   }
 }
 export default xwgl

@@ -1,24 +1,24 @@
 import request from '@/api/request'
 
 const dictionary = {
-  deleteInfo(params) {
-    let config = {
+  deleteInfo (params) {
+    const config = {
       headers: { 'Content-Type': 'application/json' }
     }
     return request.delete(`/sysDictionary/deletesysdictionary/${params}`, config)
   },
-  addInfo(params) {
+  addInfo (params) {
     return request.post('/sysDictionary/addsysdictionary', params)
   },
-  updateInfo(params) {
-    let config = {
-      //添加请求头
+  updateInfo (params) {
+    const config = {
+      // 添加请求头
       headers: { 'Content-Type': 'application/json' }
     }
     return request.put('/sysDictionary/updatesysdictionary', params, config)
   },
-  getInfolist (params){
+  getInfolist (params) {
     return request.get(`/sysDictionary/getsysdictionarylist?${params}`)
-  },
+  }
 }
 export default dictionary
