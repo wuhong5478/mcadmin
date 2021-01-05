@@ -9,7 +9,7 @@
     "build-test": "vue-cli-service build && scp -rp ./dist/* h5@47.111.172.15:/www/wwwroot/47.111.172.15/h5/be"
   },
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "core-js": "^2.6.5",
     "echarts": "^4.2.1",
     "echarts-liquidfill": "1.0.5",
